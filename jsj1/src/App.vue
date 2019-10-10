@@ -1,23 +1,29 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+<Zujian1>n</Zujian1>
     <router-view/>
   </div>
 </template>
 
 <script>
+import Zujian1 from "./components/Zujian1";
 export default {
-  name: 'App'
+  name: 'App',
+  components: {Zujian1}
 }
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+*{
+  margin: 0;
+  padding: 0;
 }
+html,body{
+  width: 100%;
+  height: 100%;
+}
+  #app {
+    width: 100%;
+    height: 100%;
+  }
 </style>
