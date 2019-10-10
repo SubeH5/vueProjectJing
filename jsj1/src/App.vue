@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-<Zujian1>n</Zujian1>
+<Zujian1></Zujian1>
     <router-view/>
   </div>
 </template>
